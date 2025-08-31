@@ -1,0 +1,88 @@
+@import "../../vars.css";
+
+.container {
+  height: 90vh;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+.content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 740px;
+}
+
+.heroInfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  color: var(--color-text);
+  font-size: 64px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  margin-top: 50px;
+}
+
+.subtitle {
+  font-size: 24px;
+  font-weight: 600;
+  background: linear-gradient(90deg, var(--color-accent) 0%, var(--color-primary) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.buttons {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+}
+
+.featuredWorkBtn {
+  color: var(--color-bg);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 16px;
+  background-color: var(--color-primary);
+  border-radius: 8px;
+  margin-right: 8px;
+  border: 2px solid transparent;
+}
+
+.allProjectsBtn {
+  color: var(--color-text);
+  font-size: 18px;
+  font-weight: 600;
+  padding: 12px 16px;
+  border-radius: 8px;
+  border: 2px solid var(--color-secondary);
+  background: rgba(61, 77, 97, 0.30);
+}
+
+.avatar {
+  aspect-ratio: 1;
+  width: 250px;
+  border-radius: 50%;
+  border: 2px solid var(--color-primary);
+  margin-left: 48px;
+}
+
+.blurb {
+  text-align: justify;
+  font-size: 24px;
+  font-weight: 500;
+  color: var(--color-text);
+  margin-top: 64px;
+  width: 740px;
+}
