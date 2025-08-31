@@ -1,0 +1,12 @@
+:root {
+    /* Colors */
+    --color-text: #EAF1EA;
+    --color-primary: #A9C9AA;
+    --color-secondary: #3D4D61;
+    --color-accent: #7D79AB;
+    --color-bg: #040704;
+    --color-secondary-20: rgba(61, 77, 97, 0.20);
+
+    /* Fonts */
+    --font-inter: "Inter"
+}

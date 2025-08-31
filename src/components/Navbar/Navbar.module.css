@@ -1,0 +1,51 @@
+@import "../../vars.css";
+
+.navbar {
+  color: var(--color-primary);
+}
+
+.list {
+  display: flex;
+  height: 10vh;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.list li {
+  list-style: none;
+}
+
+.list a {
+  margin: 32px;
+  font-size: 24px;
+  font-weight: 500;
+  text-decoration-line: none;
+  color: var(--color-primary);
+}
+
+.resumeButton {
+  flex-direction: row;
+  display: flex;
+  margin: 32px;
+  padding: 10px;
+  border: 2px solid var(--color-primary);
+  border-radius: 8px;
+  align-items: center;
+}
+
+.downloadIcon {
+  margin-left: 2px;
+  color: var(--color-primary);
+  size: 24px;
+}
+
+.resumeButton:hover {
+  background-color: var(--color-primary);
+  border: 2px solid var(--color-text);
+  color: var(--color-text);
+}
+
+.resumeButton:hover .downloadIcon {
+  color: var(--color-text);
+}
