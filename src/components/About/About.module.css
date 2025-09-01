@@ -1,0 +1,94 @@
+@import "../../vars.css";
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMeContainer {
+  position: relative;
+  width: 806px;
+  height: 474px;
+  border-radius: 8px;
+  background-color: var(--color-secondary-20);
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 32px;
+  padding-bottom: 8px;
+  margin-top: 32px;
+  margin-bottom: 100px;
+}
+
+.title {
+  color: var(--color-primary);
+  font-size: 36px;
+  font-weight: 600;
+  text-transform: capitalize;
+  justify-self: center;
+  margin-bottom: 32px;
+}
+
+.aboutMeContainer p {
+  width: 726px;
+  color: var(--color-text);
+  text-align: justify;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 24px;
+}
+
+.aboutMeContainer span {
+  color: var(--color-accent);
+}
+
+.polaroid {
+  position: absolute;
+  width: 149.786px;
+  height: 233px;
+  background: #D9D9D9;
+  padding-top: 19.42px;
+  padding-bottom: 41.61px;
+  padding-left: 11.1px;
+  padding-right: 11.1px;
+  z-index: 1;
+}
+
+.polaroid img {
+  width: 127.6px;
+  height: 171.98px;
+}
+
+.polaroid:hover {
+  scale: 1.05;
+}
+
+.bottomLeft img {
+  width: 171.98px;
+  height: 127.6px;
+  transform: rotate(90deg) translateY(22.19px) translateX(22.19px);
+}
+
+.topLeft {
+  left: -160px;
+  top: -10px;
+  transform: rotate(-19deg);
+}
+
+.bottomLeft {
+  left: -230px;
+  top: 210px;
+  transform: rotate(-43.767deg);
+}
+
+.topRight {
+  left: 810px;
+  top: 0px;
+  transform: rotate(16.9deg);
+}
+
+.bottomRight {
+  left: 850px;
+  top: 250px;
+  transform: rotate(51.6deg);
+}
