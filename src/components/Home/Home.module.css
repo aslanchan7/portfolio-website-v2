@@ -49,8 +49,11 @@
   flex-direction: row;
 }
 
+.buttons a {
+  text-decoration-line: none;
+}
+
 .featuredWorkBtn {
-  color: var(--color-bg);
   font-size: 18px;
   font-weight: 600;
   padding: 12px 16px;
@@ -58,16 +61,28 @@
   border-radius: 8px;
   margin-right: 8px;
   border: 2px solid transparent;
+  color: var(--color-bg);
+}
+
+.featuredWorkBtn:hover {
+  background-color: hsla(122, 23%, 60%, 1);
+  transform: translateY(-2px);
 }
 
 .allProjectsBtn {
-  color: var(--color-text);
   font-size: 18px;
   font-weight: 600;
   padding: 12px 16px;
   border-radius: 8px;
   border: 2px solid var(--color-secondary);
   background: rgba(61, 77, 97, 0.30);
+  text-decoration-line: none;
+  color: var(--color-text);
+}
+
+.allProjectsBtn:hover {
+  background-color: hsla(213, 23%, 60%, 0.3);
+  transform: translateY(-2px);
 }
 
 .avatar {

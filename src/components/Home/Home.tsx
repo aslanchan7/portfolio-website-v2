@@ -15,17 +15,13 @@ export const Home = () => {
             </h2>
             
             <div className={styles.buttons}>
-              <div className={styles.featuredWorkBtn}>
-                <a>
-                  See Featured Work
-                </a>
-              </div>
+              <a href="#projects" className={styles.featuredWorkBtn}>
+                See Featured Work
+              </a>
               
-              <div className={styles.allProjectsBtn}>
-                <a>
-                  Browse All Projects
-                </a>
-              </div>
+              <a href="/projects" className={styles.allProjectsBtn}>
+                Browse All Projects
+              </a>
             </div>
           </div>
 
