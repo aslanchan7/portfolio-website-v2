@@ -48,7 +48,7 @@
 
 .projectCard:hover {
   scale: 1.02;
-  transform: translateY(2px);
+  transform: translateY(-2px);
 }
 
 .briefInfo {
