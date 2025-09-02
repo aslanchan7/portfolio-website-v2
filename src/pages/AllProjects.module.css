@@ -50,6 +50,7 @@
   height: 468px;
   border-radius: 8px;
   background: rgba(61, 77, 97, 0.2);
+  text-decoration-line: none;
 }
 
 .projectCard img {

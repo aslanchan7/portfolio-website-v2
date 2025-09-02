@@ -19,7 +19,7 @@ export const AllProjects = () => {
         <div className={styles.projectsContainer}>
           {projects.map((project, id) => {
             return (
-              <div key={id} className={styles.projectCard}>
+              <a key={id} className={styles.projectCard} href={`${project.urlName}`}>
                 <img src={`/assets/Projects/${project.imageSrc}`} />
                   <div className={styles.briefInfo}>
                     <IoPeople className={styles.teamSizeIcon} />
@@ -47,7 +47,7 @@ export const AllProjects = () => {
                       </div>
                   })}
                 </div>
-              </div>
+              </a>
             )
           })}
         </div>
