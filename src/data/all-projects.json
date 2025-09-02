@@ -1,0 +1,42 @@
+[
+  {
+    "title": "Good Shirt, Green Shirt",
+    "teamSize": "2",
+    "time": "72 hours",
+    "description": "This retro arcade-like game was the submission for a 72 hour game jam. I worked on many aspects of the main game loop as well as the UI animations. This was developed with 1 other person.",
+    "skills": ["Unity", "C#", "UI Animation"],
+    "imageSrc": "GoodShirtGreenShirt.png"
+  },
+  {
+    "title": "Athenaeum",
+    "teamSize": "~60",
+    "time": "6 months",
+    "description": "This deckbuilding roguelike was our club's first ever long term project. I worked on the map's procedural generation. The project did go on for roughly another 3 months after I had stopped development.",
+    "skills": ["Unity", "Procedural Generation", "3D"],
+    "imageSrc": "Athenaeum.png"
+  },
+  {
+    "title": "Vision Fridge",
+    "teamSize": "7",
+    "time": "8 weeks",
+    "description": "This is a mobile app that I helped develop for my internship at San Diego Supercomputer Center (SDSC). It is a platform that allows users to receive recipe recommendations, follow recipes, and share their cooking with their friends.",
+    "skills": ["React Native", "Typescript"],
+    "imageSrc": "VisionFridge.png"
+  },
+  {
+    "title": "Vision Fridge",
+    "teamSize": "7",
+    "time": "8 weeks",
+    "description": "This is a mobile app that I helped develop for my internship at San Diego Supercomputer Center (SDSC). It is a platform that allows users to receive recipe recommendations, follow recipes, and share their cooking with their friends.",
+    "skills": ["React Native", "Typescript"],
+    "imageSrc": "VisionFridge.png"
+  },
+  {
+    "title": "Vision Fridge",
+    "teamSize": "7",
+    "time": "8 weeks",
+    "description": "This is a mobile app that I helped develop for my internship at San Diego Supercomputer Center (SDSC). It is a platform that allows users to receive recipe recommendations, follow recipes, and share their cooking with their friends.",
+    "skills": ["React Native", "Typescript"],
+    "imageSrc": "VisionFridge.png"
+  }
+]

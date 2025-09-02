@@ -1,6 +1,6 @@
-import styles from "./Home.module.css";
+import styles from "./Landing.module.css";
 
-export const Home = () => {
+export const Landing = () => {
   return (
     <section id="home" className={styles.container}>
       <div className={styles.content}>
