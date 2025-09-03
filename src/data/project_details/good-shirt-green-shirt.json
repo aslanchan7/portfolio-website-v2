@@ -1,0 +1,32 @@
+{
+  "slug": "good-shirt-green-shirt",
+  "title": "Good Shirt, Green Shirt",
+  "projectInfo": {
+    "timeFrame": "72 hours",
+    "teamSize": "2",
+    "technologies": ["Unity", "GitHub"],
+    "redirectLink": "https://aslanchan.itch.io/good-shirt-green-shirt"
+  },
+  "introduction": [
+    "**Good Shirt, Green Shirt** was one of the most fun projects I've worked on. My friend and I teamed up for the Spring Game Jam 2025 (now called *SPIN*), which brought together about 20 teams from universities across California. The theme was *“leprechaun”*—definitely a quirky one—so we spent a while brainstorming. My teammate brought up a pizza-making minigame from *Club Penguin*, which I quickly connected to *Good Pizza, Great Pizza*. From there, the concept clicked, and as the title suggests, we put our own playful spin on it.",
+    "This was my first time teaming up with my friend, and I was really excited—I love working with new people, discovering different team dynamics, and seeing how we can click. Overall, I'd say it was a success, though not without its challenges, which I dive into later in the section on what I learned.",
+    "My contributions included the UI elements, animations, upgrade system and drag-drop mechanics whilst my teammate focused on the art, music and the spray painting mechanic."
+  ],
+  "learned": [
+    "As I mentioned above, teaming up with my friend was definitely a **fun process**, but it also came with its *challenges*.",
+    "First, let's start with what I think we did really well as a team. We knew each other's strengths and leaned into our **skillsets**. I was much more familiar with **Unity**, so I handled many aspects of the **core game loop** and organized the **game managers**. Meanwhile, he had much more experience with **art** and is a talented musician, so he focused on those parts of the game where my skillset was lacking.",
+    "Where we clashed a bit was in our mindsets toward scope. I wouldn't call myself pessimistic, but I do lean toward creating a really well-polished, tight game with a strong game loop. So when he was trying to reassure me that we could finish all the features we had planned, I made sure to voice my concerns. In the end, I think we handled it well—both of us compromised and the middle ground was almost perfectly scoped in my opinion.",
+    "Overall, I'm happy with how the project turned out and **most importantly**, I enjoyed working on it. I was probably working on the project for about 60 of those 72 hours but I would consider those 60 hours well spent."
+  ],
+  "details": [
+    {
+      "sectionTitle": "UI Animations",
+      "sectionImage": "",
+      "content": [
+        "Before this game jam, I used Unity's Animator component for all my UI animations. But I soon learned that this approach wasn't very resource-efficient, so I started looking for an alternative. That's when I came across **UI tweening**. Since we didn't have much time during the jam, I went with a pre-existing tweening package called *LeanTween*.",
+        "I quickly realized that creating UI animations this way was not only far more efficient, but also **easier to implement**, simpler to connect with the game's logic, and much **more robust** overall.",
+        "Since this project, I've been really interested in exploring UI/UX in games. In fact, I now have a project idea to create my own library similar to LeanTween—one that would give me even more flexibility and a deeper understanding of UI animations."
+      ]
+    }
+  ]
+}

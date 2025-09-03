@@ -1,13 +1,16 @@
 import styles from "./AllProjects.module.css"
 import { IoChevronBack, IoChevronForward, IoPeople, IoTime } from "react-icons/io5"
-import projects from "../data/all-projects.json"
-import { Contact } from "../components/Contact/Contact"
+import projects from "../../data/all-projects.json"
+import { Contact } from "../../components/Contact/Contact"
+import { useNavigate } from "react-router-dom";
 
 export const AllProjects = () => {
+  const navigate = useNavigate();
+
   return (
     <div className={styles.page}>
       <div className={styles.content}>
-        <a className={styles.backButton} href="/">
+        <a className={styles.backButton} onClick={() => navigate(-1)}>
           <IoChevronBack size={32} />
           <p>Go Back</p>
         </a>

@@ -1,0 +1,36 @@
+{
+  "slug": "template",
+  "title": "Template",
+  "projectInfo": {
+    "timeFrame": "Template",
+    "teamSize": 0,
+    "technologies": ["Template", "Template"],
+    "redirectLink": "https://www.google.com/"
+  },
+  "introduction": [
+    "This is a template.",
+    "This is the second paragraph."
+  ],
+  "learned": [
+    "This is a template.",
+    "This is the second paragraph."
+  ],
+  "details": [
+    {
+      "sectionTitle": "Template",
+      "sectionImage": "",
+      "content": [
+        "This is a template.",
+        "This is the second paragraph."
+      ]
+    },
+    {
+      "sectionTitle": "Template",
+      "sectionImage": "test.webp",
+      "content": [
+        "This is a test template.",
+        "This is the second paragraph."
+      ] 
+    }
+  ]
+}

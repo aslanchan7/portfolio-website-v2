@@ -1,0 +1,141 @@
+@import "../../vars.css";
+
+.container {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-top: 5vh;
+  min-height: 100vh;
+}
+
+.backButton {
+  display: inline-flex;
+  color: var(--color-primary);
+  text-decoration-line: none;
+  font-size: 24px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.backButton:hover {
+  color: hsla(122, 23%, 60%, 1);
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+}
+
+.demoVid {
+  aspect-ratio: 16/9;
+  width: 100%;
+  background-color: var(--color-secondary-20);
+  border-radius: 8px;
+}
+
+.title {
+  margin-top: 16px;
+  margin-bottom: 32px;
+  color: var(--color-accent);
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.projectInfoContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.projectInfoBox {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-secondary-20);
+  color: var(--color-text);
+  width: 25%;
+  margin-bottom: 32px;
+  padding: 16px 0px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration-line: none;
+}
+
+.projectInfoBox h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.redirectButton {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-secondary-20);
+  color: var(--color-text);
+  width: 25%;
+  margin-bottom: 32px;
+  padding: 16px 0px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration-line: none;
+  gap: 8px
+}
+
+.redirectButton h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.projectInfoBox h4 {
+  font-size: 18x;
+  font-weight: 400;
+}
+
+.projectInfoBox:hover {
+  background: rgba(61, 77, 97, 0.30);
+  /* background-color: var(--color-primary); */
+  scale: 1.05;
+  transform: translateY(-2px);
+}
+
+.redirectButton:hover {
+  scale: 1.05;
+  transform: translateY(-2px);
+  background-color: hsla(122, 23%, 60%, 1);
+  text-decoration-line: underline;
+}
+
+.projectDetailsContainer {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 24px;
+}
+
+.projectDetailsContainer h2 {
+  color: var(--color-primary);
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+.projectDetailsContainer p {
+  color: var(--color-text);
+  font-size: 18px;
+  text-align: justify;
+  margin-bottom: 32px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.sectionImage {
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-bottom: 16px;
+  width: 50%;
+  background-color: var(--color-secondary-20);
+}
