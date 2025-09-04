@@ -10,7 +10,6 @@
 .aboutMeContainer {
   position: relative;
   width: 806px;
-  height: 474px;
   border-radius: 8px;
   background-color: var(--color-secondary-20);
   padding-left: 40px;
@@ -92,4 +91,64 @@
   left: 850px;
   top: 250px;
   transform: rotate(51.6deg);
+}
+
+@media screen and (max-width: 850px) {
+  .aboutMeContainer {
+    display: flex;
+    margin: 60px 24px;
+    flex-direction: column;
+    width: calc(100% - 48px);
+    padding: 32px;
+  }
+  
+  .title {
+    align-self: center;
+  }
+
+  .aboutMeContainer p {
+    width: 100%;
+  }
+
+  .polaroid {
+    display: none;
+    /* width: calc(149.786px * 0.6);
+    height: calc(233px * 0.6);
+    padding: calc(19.42px * 0.6) calc(11.1px * 0.6) calc(41.61px * 0.6); */
+  }
+
+  /* .polaroid img {
+    width: calc(127.6px * 0.6);
+    height: calc(171.98px * 0.6);
+  }
+
+  .topLeft {
+    left: 5vw;
+    top: -10vw;
+    transform: rotate(-19deg);
+  }
+
+  .bottomLeft img {
+    width: calc(171.98px * 0.6);
+    height: calc(127.6px * 0.6);
+    transform: rotate(90deg) translateY(13.314px) translateX(13.314px);
+  }
+
+  .bottomLeft {
+    left: 180px;
+    top: -130px;
+    transform: rotate(-43.767deg);
+  }
+
+  .topRight {
+    left: 460px;
+    top: -110px;
+    transform: rotate(16.9deg);
+  }
+
+  .bottomRight {
+    left: 600px;
+    top: -60px;
+    transform: rotate(51.6deg);
+  } */
 }
