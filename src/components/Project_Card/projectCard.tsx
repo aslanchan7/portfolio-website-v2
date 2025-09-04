@@ -28,7 +28,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
   }
 
   return (
-    <Link className={styles.projectCard} to={`${props.slug}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <Link className={styles.projectCard} to={`/${props.slug}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <video ref={vidRef} autoPlay loop muted playsInline>
         <source src={`/Project_Details/${props.slug}/${props.slug}.webm`}/>
       </video>
