@@ -5,11 +5,13 @@ import { GoodShirtGreenShirt } from "./pages/project_details/good-shirt-green-sh
 import { Athenaeum } from "./pages/project_details/athenaeum";
 import { VisionFridge } from "./pages/project_details/vision-fridge";
 import styles from "./App.module.css";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 function App() {
   return (
     <div className={styles.App}>
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />}/>
           <Route path="/projects" element={<AllProjects />}/>

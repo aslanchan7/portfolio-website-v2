@@ -1,6 +1,7 @@
 import { IoChevronForward, IoPeople, IoTime } from "react-icons/io5";
 import styles from "./projectCard.module.css";
 import { useEffect, useRef } from "react";
+import { Link } from "react-router-dom";
 
 type ProjectCardProps = {
   slug: string;
@@ -27,7 +28,7 @@ export const ProjectCard = (props: ProjectCardProps) => {
   }
 
   return (
-    <a className={styles.projectCard} href={`${props.slug}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+    <Link className={styles.projectCard} to={`${props.slug}`} onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
       <video ref={vidRef} autoPlay loop muted playsInline>
         <source src={`/Project_Details/${props.slug}/${props.slug}.webm`}/>
       </video>
@@ -58,6 +59,6 @@ export const ProjectCard = (props: ProjectCardProps) => {
             </div>
         })}
       </div>
-    </a>  
+    </Link>  
   )
 }

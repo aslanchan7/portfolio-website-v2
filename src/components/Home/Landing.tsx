@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import styles from "./Landing.module.css";
 
 export const Landing = () => {
@@ -19,9 +20,9 @@ export const Landing = () => {
                 See Featured Work
               </a>
               
-              <a href="/projects" className={styles.allProjectsBtn}>
+              <Link to="/projects" className={styles.allProjectsBtn}>
                 Browse All Projects
-              </a>
+              </Link>
             </div>
           </div>
 

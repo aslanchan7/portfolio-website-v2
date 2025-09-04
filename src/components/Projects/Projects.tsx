@@ -1,6 +1,7 @@
 import styles from "./Projects.module.css"
 import projects from "../../data/projects.json"
 import { ProjectCard } from "../Project_Card/projectCard"
+import { Link } from "react-router-dom"
 
 export const Projects = () => {
   return (
@@ -26,9 +27,9 @@ export const Projects = () => {
 
       </div>
 
-      <a href="/projects" className={styles.allProjectsBtn}>
+      <Link to="/projects" className={styles.allProjectsBtn}>
         Browse All Projects
-      </a>
+      </Link>
     </section>
   )
 }
