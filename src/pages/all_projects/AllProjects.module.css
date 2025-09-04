@@ -54,7 +54,7 @@
   text-decoration-line: none;
 }
 
-.projectCard img {
+.projectCard video {
   object-fit: cover;
   aspect-ratio: 16/9;
   width: 100%;
@@ -63,7 +63,7 @@
   opacity: 0.8;
 }
 
-.projectCard:hover img {
+.projectCard:hover video {
   opacity: 1;
 }
 

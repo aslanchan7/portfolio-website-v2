@@ -89,11 +89,17 @@
 .redirectButton h3 {
   font-size: 18px;
   font-weight: 500;
+  color: var(--color-text);
 }
+
 
 .projectInfoBox h4 {
   font-size: 18x;
   font-weight: 400;
+}
+
+.redirectIcon {
+  color: var(--color-text);
 }
 
 .projectInfoBox:hover {
@@ -107,7 +113,6 @@
   scale: 1.05;
   transform: translateY(-2px);
   background-color: hsla(122, 23%, 60%, 1);
-  text-decoration-line: underline;
 }
 
 .projectDetailsContainer {
@@ -132,10 +137,21 @@
   margin-right: 24px;
 }
 
-.sectionImage {
+.projectDetailsContainer a {
+  color: var(--color-accent);
+}
+
+.sectionAttachments {
+  display: flex;
   margin-left: 24px;
   margin-right: 24px;
   margin-bottom: 16px;
-  width: 50%;
+  gap: 16px;
+}
+
+.sectionAttachments img,
+.sectionAttachments video {
+  width: 48%;
   background-color: var(--color-secondary-20);
 }
+

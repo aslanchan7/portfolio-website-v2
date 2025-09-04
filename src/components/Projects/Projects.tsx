@@ -12,8 +12,11 @@ export const Projects = () => {
       <div className={styles.projectsContainer}>
         {projects.map((project, id) => {
           return (
-            <a key={id} className={styles.projectCard} href={`/${project.urlName}`}>
-              <img src={`/assets/Projects/${project.imageSrc}`} />
+            <a key={id} className={styles.projectCard} href={`${project.slug}`}>
+              <video autoPlay loop muted playsInline>
+                <source src={`/assets/Project_Details/${project.slug}/${project.slug}.webm`}/>
+              </video>
+
                 <div className={styles.briefInfo}>
                   <IoPeople className={styles.teamSizeIcon} />
                   <p>{project.teamSize}</p>

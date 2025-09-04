@@ -3,7 +3,7 @@
   "title": "Template",
   "projectInfo": {
     "timeFrame": "Template",
-    "teamSize": 0,
+    "teamSize": "0",
     "technologies": ["Template", "Template"],
     "redirectLink": "https://www.google.com/"
   },
@@ -18,7 +18,8 @@
   "details": [
     {
       "sectionTitle": "Template",
-      "sectionImage": "",
+      "sectionAttachment1": "",
+      "sectionAttachment2": "",
       "content": [
         "This is a template.",
         "This is the second paragraph."
@@ -26,7 +27,8 @@
     },
     {
       "sectionTitle": "Template",
-      "sectionImage": "test.webp",
+      "sectionAttachment1": "test.webp",
+      "sectionAttachment2": "",
       "content": [
         "This is a test template.",
         "This is the second paragraph."

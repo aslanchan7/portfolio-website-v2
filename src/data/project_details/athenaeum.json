@@ -1,0 +1,31 @@
+{
+  "slug": "athenaeum",
+  "title": "Athenaeum",
+  "projectInfo": {
+    "timeFrame": "6 months",
+    "teamSize": "~60",
+    "technologies": ["Unity", "GitHub"],
+    "redirectLink": "https://ethancreek.itch.io/athenaeum"
+  },
+  "introduction": [
+    "This game was my first experience working in a really **large team** as part of the Video Game Development Club's first ever long term project. It was definitely challenging, but I also learned a lot from the process. The version of the project I'm linking to is technically the beta, since a smaller group of developers decided to keep polishing the game after the school year and eventually shifted it into 3D. Unfortunately, because of other commitments that summer, I wasn't able to join them for that phase of development—so I'll be referencing the version I actively contributed to during the original development cycle.",
+    "This deck-building rogeulike idea was pitched and voted on by the community, drawing inspiration from games like *Inscryption*, *Slay the Spire* and many other popular card-based roguelikes. My contributions included the **proceduaral map generation**, the **shop level**, the **win and lose screens with voice lines** and parts of the **combat system**. In addition, I also led of a small team responsible for the map generation. To be completely honest, that team leadership experience didn't go as well as I hoped, and I expand on this later in the *\"What I've Learned\"* section."
+  ],
+  "learned": [
+    "This project taught me a lot about using Unity with GitHub and working in a larger team. As mentioned above, unfortunately, my team leadership experience didn't go as well as I hoped. With the project being open to all students, it's natural that my team consisted of people with very different levels of experience. Many of my team members had not done any game development in the past so it was very difficult for them to keep up with the more experience programmers. Despite my best efforts to make them feel welcomed and to mentor them, eventually, some of them had fizzled out of the project.",
+    "Naturally, I was sad to see them leave because they just felt that they couldn't contribute to the project anymore. I took this as a big lesson going into the next year where I was yet again a team lead for a small team on a project called [Mariposa](/mariposa)"
+  ],
+  "details": [
+    {
+      "sectionTitle": "Procedural Map Generation",
+      "sectionAttachment1": "athenaeum-map-concept.webp",
+      "sectionAttachment2": "athenaeum-map.webm",
+      "content": [
+        "Above you can see the concept for the map on the left and the final map that was implemented in the game on the right. There were a number of constraints that made the procedural generation difficult to figure out initially. Firstly, we wanted each path to go through not only the **same number** of nodes but also go through a **similar number of encounters** (the skull nodes) and **at least one event** (the \"?\" node). Not to mention, the shop nodes which we wanted there to be more than one path that would lead to a shop. Finally, we didn't want to allow the player to backtrack.",
+        "Our approach for creating the nodes was to break down the map into \"layers\". The map would always start by branching off into 2 encounter nodes as the first layer. Each subsequent layer then had a baseline chance of spawning an encounter, a shop, an event, or an empty node appearing. For a balance, we greatly increased the chance of an event node appearing at either layer 2 or 3, and again at either layer 5 or 6. We applied a similar rule the shop nodes, but at different layers.",
+        "Next came connecting the nodes together. Each node could connect to **one or two nodes** in the following layer, based on a set probability. At the end, any **unconnected nodes** were deleted. There was also a special case where all nodes ended up connected—in that case, the algorithm simply re-ran until we got a more varied structure.",
+        "Though this approach wasn't perfect, I was satisfied with the results. I'm especially happy that it was, as far as I know, an original approach given both the limited timeframe and the level of experience I had at the time."
+      ]
+    }
+  ]
+}

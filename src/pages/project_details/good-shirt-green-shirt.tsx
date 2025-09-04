@@ -44,7 +44,7 @@ export const GoodShirtGreenShirt = () => {
 
             <a className={styles.redirectButton} href={`${project.projectInfo.redirectLink}`} target="_blank">
               <h3>Link to Project</h3>
-              <FaExternalLinkAlt size={18}/>
+              <FaExternalLinkAlt size={18} className={styles.redirectIcon}/>
             </a>
           </div>
 
