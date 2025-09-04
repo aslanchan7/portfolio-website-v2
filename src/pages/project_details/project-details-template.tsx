@@ -19,7 +19,7 @@ export const ProjectDetailsTemplate = () => {
 
       <div className={styles.content}>
         <video autoPlay loop muted playsInline className={styles.demoVid}>
-          <source src={`/assets/Project_Details/${project.slug}/${project.slug}.webm`}/>
+          <source src={`/public/Project_Details/${project.slug}/${project.slug}.webm`}/>
         </video>
 
         <h1 className={styles.title}>
@@ -62,13 +62,13 @@ export const ProjectDetailsTemplate = () => {
                 {section.sectionAttachment1 !== "" && 
                   <div className={styles.sectionAttachments}>
                     {section.sectionAttachment1.endsWith(".webp") 
-                      ? <img src={`/assets/Project_Details/${project.slug}/${section.sectionAttachment1}`}/>
-                      : (<video autoPlay muted loop playsInline> <source src={`/assets/Project_Details/${project.slug}/${section.sectionAttachment1}`} /> </video>)
+                      ? <img src={`/public/Project_Details/${project.slug}/${section.sectionAttachment1}`}/>
+                      : (<video autoPlay muted loop playsInline> <source src={`/public/Project_Details/${project.slug}/${section.sectionAttachment1}`} /> </video>)
                     }
                     {section.sectionAttachment2 !== ""
                       ? section.sectionAttachment2.endsWith("webp")
-                        ? <img src={`/assets/Project_Details/${project.slug}/${section.sectionAttachment2}`}/>
-                        : (<video autoPlay muted loop playsInline> <source src={`/assets/Project_Details/${project.slug}/${section.sectionAttachment2}`} /> </video>)
+                        ? <img src={`/public/Project_Details/${project.slug}/${section.sectionAttachment2}`}/>
+                        : (<video autoPlay muted loop playsInline> <source src={`/public/Project_Details/${project.slug}/${section.sectionAttachment2}`} /> </video>)
                       : null
                     }
                   </div>

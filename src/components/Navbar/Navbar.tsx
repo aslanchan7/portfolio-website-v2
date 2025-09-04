@@ -11,7 +11,6 @@ export const Navbar = () => {
         <li>
           <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className={styles.resumeButton}>
             <p>Resume</p>
-            {/* <img src="/assets/Navbar/download-icon-white.svg" className={styles.downloadIcon}/> */}
             <IoArrowDown className={styles.downloadIcon}/>
           </a>
         </li>

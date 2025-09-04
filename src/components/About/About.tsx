@@ -27,19 +27,19 @@ export const About = () => {
         </p>
         
         <div className={`${styles.polaroid} ${styles.topLeft}`}>
-          <img src="/assets/About/about-image-1.webp"/>
+          <img src="/public/About/about-image-1.webp"/>
         </div>
  
         <div className={`${styles.polaroid} ${styles.bottomLeft}`}>
-          <img src="/assets/About/about-image-2.webp"/>
+          <img src="/public/About/about-image-2.webp"/>
         </div>
 
         <div className={`${styles.polaroid} ${styles.topRight}`}>
-          <img src="/assets/About/about-image-3.webp"/>
+          <img src="/public/About/about-image-3.webp"/>
         </div>
 
         <div className={`${styles.polaroid} ${styles.bottomRight}`}>
-          <img src="/assets/About/about-image-4.webp"/>
+          <img src="/public/About/about-image-4.webp"/>
         </div>
 
       </div>      
