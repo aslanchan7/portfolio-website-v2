@@ -57,8 +57,19 @@ export const GoodShirtGreenShirt = () => {
             return (
               <div key={id}>
                 <h2>{section.sectionTitle}</h2>
-                {section.sectionImage !== "" && 
-                  <img className={styles.sectionImage} src={`/assets/Project_Details/${project.slug}/${section.sectionImage}`}/>
+                {section.sectionAttachment1 !== "" && 
+                  <div className={styles.sectionAttachments}>
+                    {section.sectionAttachment1.endsWith(".webp") 
+                      ? <img src={`/assets/Project_Details/${project.slug}/${section.sectionAttachment1}`}/>
+                      : (<video autoPlay muted loop playsInline> <source src={`/assets/Project_Details/${project.slug}/${section.sectionAttachment1}`} /> </video>)
+                    }
+                    {section.sectionAttachment2 !== ""
+                      ? section.sectionAttachment2.endsWith("webp")
+                        ? <img src={`/assets/Project_Details/${project.slug}/${section.sectionAttachment2}`}/>
+                        : (<video autoPlay muted loop playsInline> <source src={`/assets/Project_Details/${project.slug}/${section.sectionAttachment2}`} /> </video>)
+                      : null
+                    }
+                  </div>
                 }
                 {section.content.map((paragraph, id) => {
                     return <ReactMarkdown key={id}>{paragraph}</ReactMarkdown>

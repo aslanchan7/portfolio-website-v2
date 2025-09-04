@@ -21,7 +21,8 @@
   "details": [
     {
       "sectionTitle": "UI Animations",
-      "sectionImage": "",
+      "sectionAttachment1": "",
+      "sectionAttachment2": "",
       "content": [
         "Before this game jam, I used Unity's Animator component for all my UI animations. But I soon learned that this approach wasn't very resource-efficient, so I started looking for an alternative. That's when I came across **UI tweening**. Since we didn't have much time during the jam, I went with a pre-existing tweening package called *LeanTween*.",
         "I quickly realized that creating UI animations this way was not only far more efficient, but also **easier to implement**, simpler to connect with the game's logic, and much **more robust** overall.",
