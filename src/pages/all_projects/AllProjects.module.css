@@ -143,3 +143,10 @@
   background-color: var(--color-secondary);
   color: var(--color-text);
 }
+
+@media screen and (max-width: 850px) {
+  .content {
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+}

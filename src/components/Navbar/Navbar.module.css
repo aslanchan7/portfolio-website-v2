@@ -2,11 +2,13 @@
 
 .navbar {
   color: var(--color-primary);
+  height: 10vh;
+  justify-content: center;
+  display: flex;
 }
 
 .list {
   display: flex;
-  height: 10vh;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -48,4 +50,48 @@
 
 .resumeButton:hover .downloadIcon {
   color: var(--color-text);
+}
+
+.menuIcon {
+  align-self: center;
+  margin-right: 24px;
+  display: none;
+}
+
+@media screen and (max-width: 850px) {
+  .navbar {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .menuIcon {
+    display: block;
+  }
+
+  .menuIcon:hover {
+    cursor: pointer;
+    color: hsla(122, 23%, 60%, 1);
+  }
+
+  .list {
+    display: none;
+    position: absolute;
+    flex-direction: column;
+    top: 8vh;
+    right: 0px;
+    margin-right: 24px;
+    gap: 16px;
+    z-index: 2;
+  }
+  
+  .menuOpen {
+    background-color: var(--color-secondary-20);
+    padding: 32px;
+    border-radius: 8px;
+    display: flex;
+  }
+
+  .list a {
+    margin: 0px;
+  }
 }
