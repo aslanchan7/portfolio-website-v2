@@ -25,7 +25,7 @@ export const Landing = () => {
             </div>
           </div>
 
-          <img className={styles.avatar} src="/assets/Home/avatar-pic.jpg"/>
+          <img className={styles.avatar} src="/assets/Home/avatar-pic.webp"/>
         </div>
 
         <p className={styles.blurb}>
