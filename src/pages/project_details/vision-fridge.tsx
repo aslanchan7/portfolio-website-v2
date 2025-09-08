@@ -5,7 +5,7 @@ import ReactMarkdown from "react-markdown"
 import { FaExternalLinkAlt } from "react-icons/fa";
 
 // IMPORT CORRESPONDING PROJECT
-import project from "../../data/project_details/template.json";
+import project from "../../data/project_details/vision-fridge.json";
 
 export const VisionFridge = () => {
   const navigate = useNavigate();

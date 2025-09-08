@@ -22,21 +22,5 @@
     "description": "This is a mobile app that I helped develop for my internship at San Diego Supercomputer Center (SDSC). It is a platform that allows users to receive recipe recommendations, follow recipes, and share their cooking with their friends.",
     "skills": ["React Native", "Typescript"],
     "slug": "vision-fridge"
-  },
-  {
-    "title": "Vision Fridge",
-    "teamSize": "7",
-    "time": "8 weeks",
-    "description": "This is a mobile app that I helped develop for my internship at San Diego Supercomputer Center (SDSC). It is a platform that allows users to receive recipe recommendations, follow recipes, and share their cooking with their friends.",
-    "skills": ["React Native", "Typescript"],
-    "slug": "vision-fridge"
-  },
-  {
-    "title": "Vision Fridge",
-    "teamSize": "7",
-    "time": "8 weeks",
-    "description": "This is a mobile app that I helped develop for my internship at San Diego Supercomputer Center (SDSC). It is a platform that allows users to receive recipe recommendations, follow recipes, and share their cooking with their friends.",
-    "skills": ["React Native", "Typescript"],
-    "slug": "vision-fridge"
   }
 ]
