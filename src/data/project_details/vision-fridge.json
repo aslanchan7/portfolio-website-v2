@@ -8,12 +8,12 @@
       "redirectLink": ""
     },
     "introduction": [
-      "This app was developed by a team of 7 including myself during my internship at *San Diego Supercomputer Center (SDSC)*. This experience taught me a lot about agile development and helped me hone both my technical and soft skills. The app aims to help college students cook more nutritious meals whilst also promoting food sustainability and giving users a platform to share their cooking with friends.",
-      "My contributions to this project include the UI for the login, onboarding, profile, settings, recipes catalogue, social feed and camera pages. On top of that, one of my teammates and I were in charge of creating wireframes and a style guide for the app. Finally, I was also assigned to be the *build master* for the team. This meant I was in charge of all merge requests and maintaining a clean, stable version of our code."
+      "This app was developed by a team of 7 including myself during my internship at *San Diego Supercomputer Center (SDSC)*. This experience taught me a lot about agile development and put both my technical and soft skills to the test. The app aims to help college students cook more nutritious meals whilst also promoting food sustainability and giving users a platform to share their cooking with friends.",
+      "My contributions to this project include the UI for the login, onboarding, profile, settings, recipes catalogue, social feed and camera pages. On top of that, I helped create wireframes and the style guide for the app. Finally, I was also assigned to be the *build master* for the team. This meant I was in charge of all merge requests and maintaining a clean, stable version of our code."
     ],
     "learned": [
-      "This is a template.",
-      "This is the second paragraph."
+      "During my 10-week internship, I discovered a strong interest in frontend development, particularly in UI/UX design. I plan to continue exploring this through a new personal project where I'll replicate the interfaces of popular games to gain a deeper understanding of their design choices. This process will not only sharpen my frontend development skills but also allow me to adapt and integrate these components into future projects.",
+      "In addition, I gained hands-on experience with common Git workflows, including creating and managing feature branches, maintaining a stable main branch, and conducting thorough reviews of merge requests. These practices not only improved my version control skills but also taught me the importance of collaboration, code quality, and constructive feedback."
     ],
     "details": [
       {
@@ -21,18 +21,9 @@
         "sectionAttachment1": "",
         "sectionAttachment2": "",
         "content": [
-          "Our team worked in 2 week sprints with daily scrum meetings. I found the daily meetings the most helpful as it would give us the opportunity to share our progress on a feature, any blockers to our work as well as consult other developers if we were struggling to complete a task. At the end of each sprint, our team would do a quick retrospective on what we think went well and what could've been improved from the last sprint and plan for the upcoming sprint by setting clear goals and tasks with estimated time frames to complete each task to ensure we were on track to meet the deadline.",
-          "I also learned the importance of proper planning."
+          "Our team worked in 2 week sprints with daily scrum meetings. I found the daily meetings the most helpful as it would give us the opportunity to share our progress on a feature, any blockers to our work as well as consult other developers if we were struggling to complete a task. At the end of each sprint, our team held a quick retrospective to reflect on what went well and what could be improved. We then set clear goals and defined tasks with estimated time frames for the upcoming sprint to ensure we stayed on track to meet the deadline.",
+          "I also learned the importance of proper planning. In our first sprint, my team and I didn't fully understand how much planning was needed in order for a sprint to run smoothly. At the end of that sprint, we realized we didn't get as much progress as we had hoped and for the following sprints, we would spend more time writing conditions of satisfaction for each task which gave us a clearer outline for the sprint."
         ]
-      },
-      {
-        "sectionTitle": "Template",
-        "sectionAttachment1": "test.webp",
-        "sectionAttachment2": "",
-        "content": [
-          "This is a test template.",
-          "This is the second paragraph."
-        ] 
       }
     ]
   }

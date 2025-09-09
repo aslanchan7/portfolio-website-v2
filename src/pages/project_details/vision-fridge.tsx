@@ -2,7 +2,6 @@ import { IoChevronBack } from "react-icons/io5";
 import styles from "./project-details.module.css"
 import { useNavigate } from "react-router-dom";
 import ReactMarkdown from "react-markdown"
-import { FaExternalLinkAlt } from "react-icons/fa";
 
 // IMPORT CORRESPONDING PROJECT
 import project from "../../data/project_details/vision-fridge.json";
@@ -44,9 +43,8 @@ export const VisionFridge = () => {
               <h4>{project.projectInfo.technologies.join(", ")}</h4>
             </div>
 
-            <a className={styles.redirectButton} href={`${project.projectInfo.redirectLink}`} target="_blank">
-              <h3>Link to Project</h3>
-              <FaExternalLinkAlt size={18}/>
+            <a className={styles.redirectButton}>
+              <h3>Project Link is Private</h3>
             </a>
           </div>
 
