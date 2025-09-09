@@ -12,7 +12,7 @@
     "teamSize": "~60",
     "time": "6 months",
     "description": "This deckbuilding roguelike was our club's first ever long term project. I worked on the map's procedural generation. The project did go on for roughly another 3 months after I had stopped development.",
-    "skills": ["Unity", "Procedural Generation", "3D"],
+    "skills": ["Unity", "Procedural Generation"],
     "slug": "athenaeum"
   },
   {
