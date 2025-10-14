@@ -1,9 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "./pages/home/Home"
 import { AllProjects } from "./pages/all_projects/AllProjects"
+
 import { GoodShirtGreenShirt } from "./pages/project_details/good-shirt-green-shirt";
 import { Athenaeum } from "./pages/project_details/athenaeum";
 import { VisionFridge } from "./pages/project_details/vision-fridge";
+import { Mariposa } from "./pages/project_details/mariposa";
+
 import styles from "./App.module.css";
 import { ScrollToTop } from "./components/ScrollToTop";
 
@@ -19,6 +22,7 @@ function App() {
           <Route path="/good-shirt-green-shirt" element={<GoodShirtGreenShirt />}/>
           <Route path="/athenaeum" element={<Athenaeum />}/>
           <Route path="/vision-fridge" element={<VisionFridge />}/>
+          <Route path="/mariposa" element={<Mariposa />}/>
         </Routes>
       </Router>
 

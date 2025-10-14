@@ -1,0 +1,28 @@
+{
+  "slug": "mariposa",
+  "title": "Mariposa",
+  "projectInfo": {
+    "timeFrame": "6 months",
+    "teamSize": "~80",
+    "technologies": ["Unity", "GitHub", "C#"],
+    "redirectLink": "https://store.steampowered.com/app/3991120/Mariposa/"
+  },
+  "introduction": [
+    "*Mariposa* is a narrative, puzzle-platformer that was developed over the course of **6 months** as part of the Video Game Development Club's long term project. The game was inspired by other games such as Bokura, Among Us, and more. Having had experience leading a long term project like this in the past ([Athenaeum](/athenaeum)), I was eager to put what I learned into practice and help the project run more smoothly. This project gave me the opportunity to further develop my leadership skills as well as my technical skills working with Unity's UI system.",
+    "My main contributions to this project is my role as the Puzzles Team Programming Lead which meant I was responsible for delegating tasks to my team members, organizing regular work sessions, and ensuring deliverables were complete on time. On top of that, I also implemented the wires puzzle that is showcased in a later section."
+  ],
+  "learned": [
+    "From ths project, I learned the importance of having regular meetings/work sessions where the team can come together to (1) be on the same page and in the know about updates to the project and (2) build a sense of community. This time around, all my team members stuck around for the full length of the project and overall, I felt that my experience working with this team was much more enjoyable and productive compared to the one in my previous long term project, [Athenaeum](/athenaeum). I also had to work with Git and GitHub a lot over the course of this project so I learned to make use of Unity's prefabs system to avoid major merge conflicts."
+  ],
+  "details": [
+    {
+      "sectionTitle": "Wires Puzzle",
+      "sectionAttachment1": "test.webp",
+      "sectionAttachment2": "",
+      "content": [
+        "The wires puzzle was one of my favorites in the game and I also enjoyed implementing it. I was in constant communication with the design team to discuss the rules of the puzzle and how that might affect the interactability and intuitivity of the puzzle. The challenge was to come up with a set of rules that would result in only one unique solution whilst also balancing the difficulty of the puzzle, not too hard that it would be frustrating and not too easy that it felt tedious or boring.",
+        "As for the implementation of this puzzle, I had to implement some way for the user to drag-and-drop wires which introduced the challenge of converting from screen space to canvas space and vice versa. This caused issues when scaling between different screen sizes. In hindsight, I believe there are a couple minor changes, such as an indicator for where to start pulling the wire, that would improve the intuitivity of the puzzle. Having said that, I am happy with the result and have received mostly positive feedback on it."
+      ] 
+    }
+  ]
+}
