@@ -1,0 +1,27 @@
+{
+  "slug": "snake2",
+  "title": "SNAKE2",
+  "projectInfo": {
+    "timeFrame": "2 weeks",
+    "teamSize": "6",
+    "technologies": ["Unity", "UI Animation"],
+    "redirectLink": "https://kiichiw.itch.io/snake2"
+  },
+  "introduction": [
+    "This game is our team's take on what a 2-player version of the iconic \"Snake\" might have looked like and was developed over two weeks for a game jam. Initially, for this game jam, our team was going to develop a different 2-player game that we prototyped and ended up scraping because we felt that the main gimmick of the game was not strong/clear enough for us to continue development. With only roughly 10 days remaining for the game jam, our team struggled to come up with a game idea that really excited us which led us to attempt iterating on an existing game idea, Snake.",
+    "My main contributions to the project are the UI animations, input buffering, and other polish elements such as the screen shake."
+  ],
+  "learned": [
+    "Through this project, I learned the importance of prototyping. As mentioned above, we initially planned for a completely different game idea which in hindsight was never really going to work. But at that point in time, it seemed like a good idea and that's where prototyping quickly helped us avoid wasting more development time on that idea.",
+    "In the end, I think we executed the game idea well with a very high level of polish given the time frame. However, I do believe the game would benefit from more balancing updates. Currently, the game starts off very tense and evenly matched between the players however as one players gains a small advantage, that advantage snowballs which makes it very difficult for the other player to comeback which is not what our team was intending."
+  ],
+  "details": [
+    {
+      "sectionTitle": "",
+      "sectionAttachment1": "",
+      "sectionAttachment2": "",
+      "content": [
+      ]
+    }
+  ]
+}

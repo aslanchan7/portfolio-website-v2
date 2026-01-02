@@ -6,6 +6,7 @@ import { GoodShirtGreenShirt } from "./pages/project_details/good-shirt-green-sh
 import { Athenaeum } from "./pages/project_details/athenaeum";
 import { VisionFridge } from "./pages/project_details/vision-fridge";
 import { Mariposa } from "./pages/project_details/mariposa";
+import { Snake2 } from "./pages/project_details/snake2";
 
 import styles from "./App.module.css";
 import { ScrollToTop } from "./components/ScrollToTop";
@@ -23,6 +24,7 @@ function App() {
           <Route path="/athenaeum" element={<Athenaeum />}/>
           <Route path="/vision-fridge" element={<VisionFridge />}/>
           <Route path="/mariposa" element={<Mariposa />}/>
+          <Route path="/snake2" element={<Snake2 />}/>
         </Routes>
       </Router>
 
