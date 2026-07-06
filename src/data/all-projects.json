@@ -19,7 +19,7 @@
     "title": "Vision Fridge",
     "teamSize": "7",
     "time": "8 weeks",
-    "description": "This is a mobile app that I helped develop for my internship at San Diego Supercomputer Center (SDSC). It is a platform that allows users to receive recipe recommendations, follow recipes, and share their cooking with their friends.",
+    "description": "This is a mobile app that I developed with a team for my internship at San Diego Supercomputer Center. It is a platform that allows users to follow recipes, share their cooking with their friends, and more.",
     "skills": ["React Native", "Typescript"],
     "slug": "vision-fridge"
   },
@@ -30,5 +30,13 @@
     "description": "This is a narrative, puzzle-platformer that is released on Steam. This was the Video Game Development Club's second large team, long term project. I was the lead developer for the puzzles in the game.",
     "skills": ["Unity", "Github", "C#"],
     "slug": "mariposa"
+  },
+  {
+    "title": "SNAKE2",
+    "teamSize": "6",
+    "time": "2 weeks",
+    "description": "This game is our team's take on what a 2-player version of the iconic \"Snake\" might have looked like and was developed over two weeks for a game jam.",
+    "skills": ["Unity", "UI Animation"],
+    "slug": "snake2"
   }
 ]
