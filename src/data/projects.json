@@ -1,5 +1,21 @@
 [
   {
+    "title": "Mariposa",
+    "teamSize": "~80",
+    "time": "6 months",
+    "description": "This is a narrative, puzzle-platformer that is released on Steam. This was the Video Game Development Club's second large team, long term project. I was the lead developer for the puzzles in the game.",
+    "skills": ["Unity", "Github", "C#"],
+    "slug": "mariposa"
+  },
+  {
+    "title": "Vision Fridge",
+    "teamSize": "7",
+    "time": "8 weeks",
+    "description": "This is a mobile app that I helped develop for my internship at San Diego Supercomputer Center (SDSC). It is a platform that allows users to receive recipe recommendations, follow recipes, and share their cooking with their friends.",
+    "skills": ["React Native", "Typescript"],
+    "slug": "vision-fridge"
+  },
+  {
     "title": "Good Shirt, Green Shirt",
     "teamSize": "2",
     "time": "72 hours",
@@ -14,21 +30,5 @@
     "description": "This deckbuilding roguelike was the Video Game Development Club's first ever long term project. My main contribution was leading the team in charge of the game's procedurally generated map.",
     "skills": ["Unity", "Procedural Generation"],
     "slug": "athenaeum"
-  },
-  {
-    "title": "Vision Fridge",
-    "teamSize": "7",
-    "time": "8 weeks",
-    "description": "This is a mobile app that I helped develop for my internship at San Diego Supercomputer Center (SDSC). It is a platform that allows users to receive recipe recommendations, follow recipes, and share their cooking with their friends.",
-    "skills": ["React Native", "Typescript"],
-    "slug": "vision-fridge"
-  },
-  {
-    "title": "Mariposa",
-    "teamSize": "~80",
-    "time": "6 months",
-    "description": "This is a narrative, puzzle-platformer that is released on Steam. This was the Video Game Development Club's second large team, long term project. I was the lead developer for the puzzles in the game.",
-    "skills": ["Unity", "Github", "C#"],
-    "slug": "mariposa"
   }
 ]

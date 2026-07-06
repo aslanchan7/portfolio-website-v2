@@ -27,7 +27,6 @@ function App() {
           <Route path="/snake2" element={<Snake2 />}/>
         </Routes>
       </Router>
-
     </div>
   )
 }
