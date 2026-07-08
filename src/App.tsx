@@ -10,6 +10,7 @@ import { Snake2 } from "./pages/project_details/snake2";
 
 import styles from "./App.module.css";
 import { ScrollToTop } from "./components/ScrollToTop";
+import { WayOfFengShui } from "./pages/project_details/way-of-feng-shui";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/vision-fridge" element={<VisionFridge />}/>
           <Route path="/mariposa" element={<Mariposa />}/>
           <Route path="/snake2" element={<Snake2 />}/>
+          <Route path="/way-of-feng-shui" element={<WayOfFengShui />}/>
         </Routes>
       </Router>
     </div>

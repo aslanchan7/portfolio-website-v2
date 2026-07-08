@@ -1,19 +1,11 @@
 [
   {
-    "title": "Good Shirt, Green Shirt",
-    "teamSize": "2",
-    "time": "72 hours",
-    "description": "This retro arcade-like game was the submission for a 72 hour game jam. I worked on many aspects of the main game loop as well as the UI animations. This was developed with 1 other person.",
-    "skills": ["Unity", "C#", "UI Animation"],
-    "slug": "good-shirt-green-shirt"
-  },
-  {
-    "title": "Athenaeum",
-    "teamSize": "~60",
+    "title": "Mariposa",
+    "teamSize": "80+",
     "time": "6 months",
-    "description": "This deckbuilding roguelike was our club's first ever long term project. I worked on the map's procedural generation. The project did go on for roughly another 3 months after I had stopped development.",
-    "skills": ["Unity", "Procedural Generation"],
-    "slug": "athenaeum"
+    "description": "This is a narrative, puzzle-platformer that is released on Steam. This was the Video Game Development Club's second large team, long term project. I was the lead developer for the puzzles in the game.",
+    "skills": ["Unity", "Github", "C#"],
+    "slug": "mariposa"
   },
   {
     "title": "Vision Fridge",
@@ -24,12 +16,28 @@
     "slug": "vision-fridge"
   },
   {
-    "title": "Mariposa",
-    "teamSize": "~80",
+    "title": "Athenaeum",
+    "teamSize": "60+",
     "time": "6 months",
-    "description": "This is a narrative, puzzle-platformer that is released on Steam. This was the Video Game Development Club's second large team, long term project. I was the lead developer for the puzzles in the game.",
-    "skills": ["Unity", "Github", "C#"],
-    "slug": "mariposa"
+    "description": "This deckbuilding roguelike was our club's first ever long term project. I worked on the map's procedural generation. The project did go on for roughly another 3 months after I had stopped development.",
+    "skills": ["Unity", "Procedural Generation"],
+    "slug": "athenaeum"
+  },
+  {
+    "title": "Way of Feng Shui",
+    "teamSize": "15",
+    "time": "6 weeks",
+    "description": "This game is a 3D house furnishing puzzle game where the player needs to follow the rules of Feng Shui to score points and pass the level. I was the programming lead of the team.",
+    "skills": ["Unity", "3D", "Grid System"],
+    "slug": "way-of-feng-shui"
+  },
+  {
+    "title": "Good Shirt, Green Shirt",
+    "teamSize": "2",
+    "time": "72 hours",
+    "description": "This retro arcade-like game was the submission for a 72 hour game jam. I worked on many aspects of the main game loop as well as the UI animations. This was developed with 1 other person.",
+    "skills": ["Unity", "C#", "UI Animation"],
+    "slug": "good-shirt-green-shirt"
   },
   {
     "title": "SNAKE2",
