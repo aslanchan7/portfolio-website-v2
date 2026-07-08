@@ -21,8 +21,10 @@
       "sectionAttachment1": "wofs-grid-system.webp",
       "sectionAttachment2": "",
       "content": [
-        "This is a test template.",
-        "This is the second paragraph."
+        "The grid system was the first system we developed for this project as it was central to everything else we were planning to achieve. After discussing with the team, we opted for a grid based game instead of allowing the player to place furniture freely as we could use the discrete positions of furniture (provided by having a grid) to calculate score as well as 'rule breaks'.",
+        "To make sure the system could be reused across different room layouts, I built the grid to be completely scalable, meaning any room could be dropped in and the grid would generate itself based on the given dimensions. However, this was only possible with rectangular shapes, since anything more complex would have required a much more involved approach which we couldn’t afford given our development timeline.",
+        "One nuance I ran into early on was handling rotation for furniture pieces, since the pivot point behaves differently depending on whether the grid length of the object is even or odd. An object with an odd-length footprint has a clean center cell to rotate around, while an even-length footprint doesn't, so I had to adjust the offset calculations separately for each case to make sure furniture rotated in place instead of visibly shifting.",
+        "Finally, in order for the grid lines to appear perfectly each time, no matter the dimensions of the room, I made a quick shader using **Unity's Shader Graph** feature."
       ] 
     }
   ]
