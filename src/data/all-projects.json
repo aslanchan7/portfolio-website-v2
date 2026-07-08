@@ -1,29 +1,5 @@
 [
   {
-    "title": "Mariposa",
-    "teamSize": "80+",
-    "time": "6 months",
-    "description": "This is a narrative, puzzle-platformer that is released on Steam. This was the Video Game Development Club's second large team, long term project. I was the lead developer for the puzzles in the game.",
-    "skills": ["Unity", "Github", "C#"],
-    "slug": "mariposa"
-  },
-  {
-    "title": "Vision Fridge",
-    "teamSize": "7",
-    "time": "8 weeks",
-    "description": "This is a mobile app that I developed with a team for my internship at San Diego Supercomputer Center. It is a platform that allows users to follow recipes, share their cooking with their friends, and more.",
-    "skills": ["React Native", "Typescript"],
-    "slug": "vision-fridge"
-  },
-  {
-    "title": "Athenaeum",
-    "teamSize": "60+",
-    "time": "6 months",
-    "description": "This deckbuilding roguelike was our club's first ever long term project. I worked on the map's procedural generation. The project did go on for roughly another 3 months after I had stopped development.",
-    "skills": ["Unity", "Procedural Generation"],
-    "slug": "athenaeum"
-  },
-  {
     "title": "Way of Feng Shui",
     "teamSize": "15",
     "time": "6 weeks",
@@ -32,10 +8,34 @@
     "slug": "way-of-feng-shui"
   },
   {
+    "title": "Mariposa",
+    "teamSize": "80+",
+    "time": "6 months",
+    "description": "This is a narrative, puzzle-platformer that is released on Steam. I was the programming lead for the puzzles team who were in charge of implementing all the puzzles in game.",
+    "skills": ["Unity", "Github", "C#"],
+    "slug": "mariposa"
+  },
+  {
+    "title": "Vision Fridge",
+    "teamSize": "7",
+    "time": "8 weeks",
+    "description": "This is a mobile app that I developed during my internship at SDSC. Think Strava but food. This is a platform that allows users to follow recipes, share their cooking with their friends, and more.",
+    "skills": ["React Native", "Typescript"],
+    "slug": "vision-fridge"
+  },
+  {
+    "title": "Athenaeum",
+    "teamSize": "60+",
+    "time": "6 months",
+    "description": "This deckbuilding roguelike was our club's first ever long term project. My main contribution was working on procedural generation for the map.",
+    "skills": ["Unity", "Procedural Generation"],
+    "slug": "athenaeum"
+  },
+  {
     "title": "Good Shirt, Green Shirt",
     "teamSize": "2",
     "time": "72 hours",
-    "description": "This retro arcade-like game was the submission for a 72 hour game jam. I worked on many aspects of the main game loop as well as the UI animations. This was developed with 1 other person.",
+    "description": "This retro arcade-like game was the submission for a 72 hour game jam. I worked on many aspects of the main game loop as well as the UI animations.",
     "skills": ["Unity", "C#", "UI Animation"],
     "slug": "good-shirt-green-shirt"
   },
@@ -46,5 +46,13 @@
     "description": "This game is our team's take on what a 2-player version of the iconic \"Snake\" might have looked like and was developed over two weeks for a game jam.",
     "skills": ["Unity", "UI Animation"],
     "slug": "snake2"
+  },
+  {
+    "title": "Horsepower",
+    "teamSize": "3",
+    "time": "24 hours",
+    "description": "This is a local co-op game where you and a friend race your horse to the finish line whilst synchronizing your inputs.",
+    "skills": ["Unity", "Local Multiplayer"],
+    "slug": "horsepower"
   }
 ]

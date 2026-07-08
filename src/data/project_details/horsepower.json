@@ -1,0 +1,29 @@
+{
+  "slug": "horsepower",
+  "title": "Horsepower",
+  "projectInfo": {
+    "timeFrame": "24 hours",
+    "teamSize": "3",
+    "technologies": ["Unity", "Local Multiplayer"],
+    "redirectLink": "https://aslanchan.itch.io/horsepower"
+  },
+  "introduction": [
+    "This is a 2-player local co-op game where you race horses. The concept is simple: two players have to press their respective buttons at the same time to get the horse moving. The more successful inputs you get in the row, the faster the horse runs, but if you miss and the horse falls allowing the other horses to get ahead.",
+    "As the only programmer on the team, I was responsible for implementing every mechanic in the game, one of the more notable being the Input Manager."
+  ],
+  "learned": [
+    "At the start of the jam, I noticed a lot of other teams jumping straight into development while we spent a significant chunk of time planning out the different features of our game and figuring out exactly what we needed to achieve them. Although this meant we started later than most teams, it paid off in the long run since we didn't have to go back and redesign any aspects of our game once we started development.",
+    "Because our planning phase was so thorough, the rest of development ended up being relatively smooth, and we could just focus on implementing features. This allowed us to finish our core features earlier than some other teams, which gave us extra time to focus on polishing the game."
+  ],
+  "details": [
+    {
+      "sectionTitle": "Input Manager",
+      "sectionAttachment1": "",
+      "sectionAttachment2": "",
+      "content": [
+        "One challenge that came up during playtesting was that it was incredibly difficult for two players to hit their inputs on the exact same frame, which made the game nearly unplayable in its early state. To fix this, I added a buffer timer that gave players a small window to hit the input close to each other and still have it register as a successful input which made the game a lot more fun to play.",
+        "I also kept track of the number of consecutive successful inputs as well as the time since the last successful input, which allowed me to make the players feel like the momentum of their inputs directly affected their horse's movement speed. This meant that hitting inputs consistently and in quick succession would build up speed, rewarding players for maintaining a steady rhythm. This made the mechanic feel much more responsive and rewarding overall."
+      ]
+    }
+  ]
+}
