@@ -54,5 +54,13 @@
     "description": "This is a local co-op game where you and a friend race your horse to the finish line whilst synchronizing your inputs.",
     "skills": ["Unity", "Local Multiplayer"],
     "slug": "horsepower"
+  },
+  {
+    "title": "Reel It In",
+    "teamSize": "4",
+    "time": "24 hours",
+    "description": "This is 2 player button mashing fishing game built for an arcade cabinet. Heavier fish earn you more points but are a lot harder to reel!",
+    "skills": ["Unity", "Local Multiplayer"],
+    "slug": "reel-it-in"
   }
 ]

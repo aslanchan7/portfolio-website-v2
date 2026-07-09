@@ -1,0 +1,27 @@
+{
+  "slug": "reel-it-in",
+  "title": "Reel It In",
+  "projectInfo": {
+    "timeFrame": "24 hours",
+    "teamSize": "4",
+    "technologies": ["Unity", "Local Multiplayer"],
+    "redirectLink": "https://mkkaa.itch.io/reel-it-in"
+  },
+  "introduction": [
+    "This is a 2-player local multiplayer game where you and a friend mash buttons to reel the biggest fish! This game was developed for a game jam with the constraint: only two buttons allowed.",
+    "My main contributions to this project include the fish behavior, reeling mechanic, ending statistics screen, and assets and animation importing."
+  ],
+  "learned": [
+    "Our game ended up placing 2nd overall out of around 20 teams, which we were really happy with! Since this was my first 24-hour game jam, I made a conscious effort to keep the scope of the game small, and looking back I'm really glad I did.",
+    "Keeping the scope small meant we weren't scrambling to implement features right up until submission, and instead had a good amount of time left over to focus on polishing the game. This included adding a short tutorial to help players understand the mechanics, as well as a small cutscene that helped tie the overall experience together."
+  ],
+  "details": [
+    {
+      "sectionTitle": "",
+      "sectionAttachment1": "",
+      "sectionAttachment2": "",
+      "content": [
+      ]
+    }
+  ]
+}
