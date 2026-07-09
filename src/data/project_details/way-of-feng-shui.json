@@ -1,0 +1,31 @@
+{
+  "slug": "way-of-feng-shui",
+  "title": "Way of Feng Shui",
+  "projectInfo": {
+    "timeFrame": "6 Weeks",
+    "teamSize": "15",
+    "technologies": ["Unity", "3D", "Grid System"],
+    "redirectLink": "https://maghaejin.itch.io/way-of-feng-shui"
+  },
+  "introduction": [
+    "Way of Feng Shui is a **3D house furnishing puzzle game** that was pitched by our wonderful lead (Magnolia) and developed over the course of 6 weeks. With such a constrained timeline, we had to make sure we planned thoroughly to allow us to hit the ground running when it came to development. The project was inspired by games such as The Sims and Animal Crossing with their therapeutic house furnishing gameplay. This game attempts to create a similar experience for the user which is reflected in its art style and music.",
+    "As the **programming lead** of the team, I contributed in nearly every aspect of the project. More specifically, I helped **create and delegate tasks**, give constructive feedback on implementations of systems, maintain an **agile-like development** methodology, as well as having a good understanding of the codebase overall. Some tasks that I personally implemented were the grid system, the ability to place, remove, and rotate furniture and finally all of the UI elements and its functionality."
+  ],
+  "learned": [
+    "This project was extremely fun for me, not only because I had an amazing team to work with but also because I felt challenged in new ways. Most significantly, I learned the workflow of developing a 3D game including importing **3D models**, using **textures and materials**, and even learning hotkeys for navigating the scene more efficiently.",
+    "As the programming lead, it gave me a chance to better understand the workflow of other disciplines and how to best communicate between teams. It also gave me the opportunity to practice agile development and strengthen my leadership skills."
+  ],
+  "details": [
+    {
+      "sectionTitle": "Grid System",
+      "sectionAttachment1": "wofs-grid-system.webp",
+      "sectionAttachment2": "",
+      "content": [
+        "The grid system was the first system we developed for this project as it was central to everything else we were planning to achieve. After discussing with the team, we opted for a grid based game instead of allowing the player to place furniture freely as we could use the discrete positions of furniture (provided by having a grid) to calculate score as well as 'rule breaks'.",
+        "To make sure the system could be reused across different room layouts, I built the grid to be completely scalable, meaning any room could be dropped in and the grid would generate itself based on the given dimensions. However, this was only possible with rectangular shapes, since anything more complex would have required a much more involved approach which we couldn’t afford given our development timeline.",
+        "One nuance I ran into early on was handling rotation for furniture pieces, since the pivot point behaves differently depending on whether the grid length of the object is even or odd. An object with an odd-length footprint has a clean center cell to rotate around, while an even-length footprint doesn't, so I had to adjust the offset calculations separately for each case to make sure furniture rotated in place instead of visibly shifting.",
+        "Finally, in order for the grid lines to appear perfectly each time, no matter the dimensions of the room, I made a quick shader using **Unity's Shader Graph** feature."
+      ] 
+    }
+  ]
+}
