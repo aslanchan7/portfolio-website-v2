@@ -4,13 +4,12 @@
   "projectInfo": {
     "timeFrame": "72 hours",
     "teamSize": "2",
+    "role": "Gameplay Programmer",
     "technologies": ["Unity", "GitHub"],
     "redirectLink": "https://aslanchan.itch.io/good-shirt-green-shirt"
   },
   "introduction": [
-    "**Good Shirt, Green Shirt** was one of the most fun projects I've worked on. My friend and I teamed up for the Spring Game Jam 2025 (now called *SPIN*), which brought together about 20 teams from universities across California. The theme was *“leprechaun”*—definitely a quirky one—so we spent a while brainstorming. My teammate brought up a pizza-making minigame from *Club Penguin*, which I quickly connected to *Good Pizza, Great Pizza*. From there, the concept clicked, and as the title suggests, we put our own playful spin on it.",
-    "This was my first time teaming up with my friend, and I was really excited—I love working with new people, discovering different team dynamics, and seeing how we can click. Overall, I'd say it was a success, though not without its challenges, which I dive into later in the section on what I learned.",
-    "My contributions included the UI elements, animations, upgrade system and drag-drop mechanics whilst my teammate focused on the art, music and the spray painting mechanic."
+    "*Good Shirt, Green Shirt* was a game developed in 72 hours for a game jam. The theme for the jam was \"leprechaun\". This game drawed inspiration from minigames from Club Penguin and Good Pizza, Great Pizza. My contributions included the UI/UX, animations, upgrade system and drag-drop mechanics."
   ],
   "learned": [
     "As I mentioned above, teaming up with my friend was definitely a **fun process**, but it also came with its *challenges*.",
@@ -24,9 +23,7 @@
       "sectionAttachment1": "",
       "sectionAttachment2": "",
       "content": [
-        "Before this game jam, I used Unity's Animator component for all my UI animations. But I soon learned that this approach wasn't very resource-efficient, so I started looking for an alternative. That's when I came across **UI tweening**. Since we didn't have much time during the jam, I went with a pre-existing tweening package called *LeanTween*.",
-        "I quickly realized that creating UI animations this way was not only far more efficient, but also **easier to implement**, simpler to connect with the game's logic, and much **more robust** overall.",
-        "Since this project, I've been really interested in exploring UI/UX in games. In fact, I now have a project idea to create my own library similar to LeanTween—one that would give me even more flexibility and a deeper understanding of UI animations."
+        "In this project, I learned to use a tool called *LeanTween* which helped me animate the UI in the game efficiently and more robustly. Since then, I have developed my own C# tweening library which I have used in all my following projects."
       ]
     }
   ]

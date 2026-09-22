@@ -36,6 +36,11 @@ export const GoodShirtGreenShirt = () => {
               <h3>Time Frame</h3>
               <h4>{project.projectInfo.timeFrame}</h4>
             </div>
+            
+            <div className={styles.projectInfoBox}>
+              <h3>Role</h3>
+              <h4>{project.projectInfo.role}</h4>
+            </div>
 
             <div className={styles.projectInfoBox}>
               <h3>Technologies</h3>
@@ -78,10 +83,10 @@ export const GoodShirtGreenShirt = () => {
             )
           })}
 
-          <h2>What I've Learned</h2>
+          {/* <h2>What I've Learned</h2>
           {project.learned.map((paragraph, id) => {
             return <ReactMarkdown key={id}>{paragraph}</ReactMarkdown>
-          })}
+          })} */}
 
         </div>
       </div>
