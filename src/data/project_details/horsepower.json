@@ -4,12 +4,13 @@
   "projectInfo": {
     "timeFrame": "24 hours",
     "teamSize": "3",
+    "role": "Sole Programmer",
     "technologies": ["Unity", "Local Multiplayer"],
     "redirectLink": "https://aslanchan.itch.io/horsepower"
   },
   "introduction": [
     "This is a 2-player local co-op game where you race horses. The concept is simple: two players have to press their respective buttons at the same time to get the horse moving. The more successful inputs you get in the row, the faster the horse runs, but if you miss and the horse falls allowing the other horses to get ahead.",
-    "As the only programmer on the team, I was responsible for implementing every mechanic in the game, one of the more notable being the Input Manager."
+    "As the only programmer on the team, I was responsible for implementing every mechanic in the game, notably the Input Manager which I cover below."
   ],
   "learned": [
     "At the start of the jam, I noticed a lot of other teams jumping straight into development while we spent a significant chunk of time planning out the different features of our game and figuring out exactly what we needed to achieve them. Although this meant we started later than most teams, it paid off in the long run since we didn't have to go back and redesign any aspects of our game once we started development.",

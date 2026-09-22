@@ -40,6 +40,11 @@ export const Athenaeum = () => {
             </div>
 
             <div className={styles.projectInfoBox}>
+              <h3>Role</h3>
+              <h4>{project.projectInfo.role}</h4>
+            </div>
+
+            <div className={styles.projectInfoBox}>
               <h3>Technologies</h3>
               <h4>{project.projectInfo.technologies.join(", ")}</h4>
             </div>
@@ -80,10 +85,10 @@ export const Athenaeum = () => {
             )
           })}
 
-          <h2>What I've Learned</h2>
+          {/* <h2>What I've Learned</h2>
           {project.learned.map((paragraph, id) => {
             return <ReactMarkdown key={id}>{paragraph}</ReactMarkdown>
-          })}
+          })} */}
 
         </div>
       </div>
